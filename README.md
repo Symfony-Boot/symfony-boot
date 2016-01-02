@@ -16,5 +16,5 @@ Standard Symfony installation with the usual suspects of bundle and configuratio
 
 ## Preinstalled Libraries
 
-- Nesbot Carbon
+- Nesbot Carbon
 - Debug
