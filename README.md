@@ -35,10 +35,14 @@ Source: [KNP Paginator Bundle](http://jmsyst.com/bundles/JMSSerializerBundle)
 
 ### Implementation Features
 
-- Definable keys within **parameters.yml.dist**
+- Definable request keys within **parameters.yml.dist** with default values
+- ```PageRequestListener``` Kernel Event Listener
+- ```PageRequest``` object which can be optionally injected into your controller before the request hand-off takes place.
 
+#### Parameters
 ```yaml
 // parameters.yml.dist
+
 paginator_param_page: page
 paginator_param_sort: sort
 paginator_param_direction: sort_dir
@@ -47,7 +51,7 @@ paginator_default_page_size: 5
 paginator_default_distinct: false
 ```
 
-### Event Listener
+#### Event Listener
 ```
 AppBundle\EventListener\PageRequestListener
 ```
@@ -91,5 +95,4 @@ Fixtures are used to load a controlled set of data into a database. This data ca
 
 
 ## Carbon
----
 [Carbon](https://github.com/briannesbitt/Carbon) is a simple PHP API extension for DateTime.
