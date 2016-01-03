@@ -33,12 +33,16 @@ framework:
     http_method_override: true
     assets: ~
 
+# --------------------------------------------------
 # Twig Configuration
+# --------------------------------------------------
 twig:
     debug:            "%kernel.debug%"
     strict_variables: "%kernel.debug%"
 
+# --------------------------------------------------
 # Doctrine Configuration
+# --------------------------------------------------
 doctrine:
     dbal:
         driver:   pdo_mysql
@@ -60,7 +64,9 @@ doctrine:
         naming_strategy: doctrine.orm.naming_strategy.underscore
         auto_mapping: true
 
+# --------------------------------------------------
 # Swiftmailer Configuration
+# --------------------------------------------------
 swiftmailer:
     transport: "%mailer_transport%"
     host:      "%mailer_host%"
@@ -69,6 +75,24 @@ swiftmailer:
     spool:     { type: memory }
 
 
+# --------------------------------------------------
+# KNP Paginator Configuration
+# --------------------------------------------------
+knp_paginator:
+    page_range: %paginator_default_page_size%
+    default_options:
+        page_name: %paginator_param_page%
+        sort_field_name: %paginator_param_sort%
+        sort_direction_name: %paginator_param_direction%
+        distinct: %paginator_default_distinct%
+        distinct: true
+    template:
+        pagination: KnpPaginatorBundle:Pagination:sliding.html.twig     # sliding pagination controls template
+        sortable: KnpPaginatorBundle:Pagination:sortable_link.html.twig # sort link template
+
+# --------------------------------------------------
+# FOS User
+# --------------------------------------------------
 fos_user:
     db_driver: orm
     firewall_name: main
