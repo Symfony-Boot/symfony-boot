@@ -1,9 +1,9 @@
-symfony-bootstrap
+Symfony-Bootstrap
 =================
-Standard Symfony installation with a handful of useful bundles preinstalled and configured. Also included are a few
-custom components to enhance some of the bundles features.
+Standard Symfony installation with a handful of useful bundles, libraries, and custom components pre-installed and configured.
+ 
 
-Preinstalled Bundles
+Pre-Installed Bundles
 --------------------
 - [FOS User Bundle](#fos-user-bundle)
 - [KNP Paginator Bundle](#knp-paginator-bundle)
@@ -17,10 +17,15 @@ Preinstalled Bundles
 - [Liip Theme Bundle](#liip-theme-bundle)
 
 
-Preinstalled Libraries
+Pre-Installed Libraries
 ----------------------
 - [Carbon](#carbon)
 
+
+
+Custom Components
+-----------------
+- [Timestamp Trait](#timestamp-trait)
 
 
 
@@ -96,3 +101,6 @@ Fixtures are used to load a controlled set of data into a database. This data ca
 
 ## Carbon
 [Carbon](https://github.com/briannesbitt/Carbon) is a simple PHP API extension for DateTime.
+
+
+## Timestamp Trait
