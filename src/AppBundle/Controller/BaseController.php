@@ -2,6 +2,8 @@
 
 namespace AppBundle\Controller;
 
+use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+
 
 /**
  * Class BaseController
@@ -9,7 +11,7 @@ namespace AppBundle\Controller;
  *
  * @author Anthony Howell <anthonyhowell@gmail.com>
  */
-abstract class BaseController
+abstract class BaseController extends Controller
 {
 
     /** @var \Component\PageRequet */
