@@ -5,27 +5,28 @@ Standard Symfony installation with a handful of useful bundles, libraries, and c
 
 Pre-Installed Bundles
 --------------------
-- [FOS User Bundle](#fos-user-bundle)
-- [KNP Paginator Bundle](#knp-paginator-bundle)
-- [KNP Menu Bundle](#knp-menu-bundle)
-- [Cnerta Breadcrumb Bundle](#cnerta-breadcrumb-bundle)
-- [Doctrine Extensions Bundle](#doctrine-extensions-bundle)
-- [Doctrine Fixtures Bundle](#doctrine-fixtures-bundle)
-- [FOS Rest Bundle](#fos-rest-bundle)
-- [FOS JsRouting Bundle](#fos-js-routing-bundle)
-- [JMS Serializer Bundle](#jms-serializer-bundle)
-- [Liip Theme Bundle](#liip-theme-bundle)
+- [X] [FOS User Bundle](#fos-user-bundle)
+- [X] [KNP Paginator Bundle](#knp-paginator-bundle)
+- [ ] [KNP Menu Bundle](#knp-menu-bundle)
+- [ ] [Cnerta Breadcrumb Bundle](#cnerta-breadcrumb-bundle)
+- [ ] [Doctrine Extensions Bundle](#doctrine-extensions-bundle)
+- [ ] [Doctrine Fixtures Bundle](#doctrine-fixtures-bundle)
+- [ ] [FOS Rest Bundle](#fos-rest-bundle)
+- [ ] [FOS JsRouting Bundle](#fos-js-routing-bundle)
+- [ ] [JMS Serializer Bundle](#jms-serializer-bundle)
+- [ ] [Liip Theme Bundle](#liip-theme-bundle)
 
 
 Pre-Installed Libraries
 ----------------------
-- [Carbon](#carbon)
+- [ ] [Carbon](#carbon)
 
 
 
 Custom Components
 -----------------
-- [Timestamp Trait](#timestamp-trait)
+- [ ] [Timestamp Trait](#timestamp-trait)
+- More to come
 
 
 
