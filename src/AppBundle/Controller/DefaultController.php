@@ -12,12 +12,6 @@ class DefaultController extends BaseController
      */
     public function indexAction(Request $request)
     {
-
-
-
-        var_dump($this->getPageRequest());
-        die();
-
         // replace this example code with whatever you need
         return $this->render('default/index.html.twig', [
             'base_dir' => realpath($this->container->getParameter('kernel.root_dir').'/..'),
