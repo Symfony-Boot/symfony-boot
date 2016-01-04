@@ -4,9 +4,59 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "127a02a1af4b298a1fa584c46c80a2fd",
-    "content-hash": "5f6d001e74309e253339affeebd61b3f",
+    "hash": "c6a0749624c25d8f1024ad75ea78588d",
+    "content-hash": "486b05cb928ea6829a7480457b2c3794",
     "packages": [
+        {
+            "name": "cnerta/breadcrumb-bundle",
+            "version": "2.1.1",
+            "target-dir": "Cnerta/BreadcrumbBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AgrosupDijon-Eduter/BreadcrumbBundle.git",
+                "reference": "794f782c1a9cc344905a8c56412f17535241c3f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AgrosupDijon-Eduter/BreadcrumbBundle/zipball/794f782c1a9cc344905a8c56412f17535241c3f6",
+                "reference": "794f782c1a9cc344905a8c56412f17535241c3f6",
+                "shasum": ""
+            },
+            "require": {
+                "knplabs/knp-menu-bundle": "~2.0",
+                "symfony/framework-bundle": ">2.1"
+            },
+            "require-dev": {
+                "knplabs/knp-menu-bundle": "~2.0",
+                "phpunit/phpunit": "~4.8",
+                "symfony/symfony": "2.7.*"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Cnerta\\BreadcrumbBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Valérian Girard",
+                    "email": "valerian.girard@educagri.fr",
+                    "homepage": "http://www.cnerta.educagri.fr/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The CnertaBreadcrumbBundle, for Symfony2, provide an easy way to create a breadcrumb with KnpMenuBundle",
+            "keywords": [
+                "Symfony2",
+                "breadcrumbs",
+                "knpmenu"
+            ],
+            "time": "2015-10-21 15:36:21"
+        },
         {
             "name": "doctrine/annotations",
             "version": "v1.2.7",

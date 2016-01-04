@@ -7,8 +7,8 @@ Pre-Installed Bundles
 --------------------
 - [X] [FOS User Bundle](#fos-user-bundle)
 - [X] [KNP Paginator Bundle](#knp-paginator-bundle)
-- [ ] [KNP Menu Bundle](#knp-menu-bundle)
-- [ ] [Cnerta Breadcrumb Bundle](#cnerta-breadcrumb-bundle)
+- [X] [KNP Menu Bundle](#knp-menu-bundle)
+- [X] [Cnerta Breadcrumb Bundle](#cnerta-breadcrumb-bundle)
 - [ ] [Doctrine Extensions Bundle](#doctrine-extensions-bundle)
 - [ ] [Doctrine Fixtures Bundle](#doctrine-fixtures-bundle)
 - [ ] [FOS Rest Bundle](#fos-rest-bundle)
@@ -75,7 +75,7 @@ If you choose to have your controller extend **AppBundle\Controller\BaseControll
 The [KnpMenuBundle](https://github.com/KnpLabs/KnpMenuBundle) integrates the [KnpMenu](https://github.com/KnpLabs/KnpMenu) PHP library with Symfony.
 
 ## Cnerta Breadcrumb Bundle
-[Cnerta Breadcrumb Bundle](https://packagist.org/packages/cnerta/breadcrumb-bundle) provides an easy way to create a breadcrumb with KnpMenuBundle.
+[Cnerta Breadcrumb Bundle](https://github.com/AgrosupDijon-Eduter/BreadcrumbBundle) provides an easy way to create a breadcrumb with KnpMenuBundle.
 
 ## Doctrine Extensions Bundle
 [Doctrine Extensions Bundle](https://github.com/stof/StofDoctrineExtensionsBundle) provides integration for [DoctrineExtensions](https://github.com/Atlantic18/DoctrineExtensions) in your Symfony2 Project.

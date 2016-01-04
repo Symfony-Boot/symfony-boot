@@ -3,7 +3,14 @@
 {% block body %}
 
 
-    {{ knp_menu_render('AppBundle:SampleMainMenuBuilder:mainMenu') }}
+    <div id="main-menu">
+        {{ knp_menu_render('AppBundle:SampleMainMenuBuilder:mainMenu') }}
+    </div>
+
+    <div id="breadcrumb">
+        {{ cnerta_breadcrumb_render('AppBundle:SampleMainMenuBuilder:mainMenu') }}
+    </div>
+
 
 
     <div id="wrapper">
