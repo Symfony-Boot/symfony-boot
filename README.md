@@ -1,4 +1,4 @@
-# symfony-bootstrap
+# symfony-boot
 Standard Symfony installation with the usual suspects of bundle and configuration
 
 ## Preinstalled Bundles
